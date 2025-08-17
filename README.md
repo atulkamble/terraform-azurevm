@@ -1,4 +1,21 @@
-Got it, Atul! Here’s a clean, minimal Terraform setup to launch a basic Ubuntu VM on Azure. It creates a resource group, VNet/Subnet, NSG (SSH open), public IP, NIC, and a Linux VM (Ubuntu 22.04 LTS). You can drop these files into a folder and apply.
+```
+// azure vm launch with terraform 
+
+1. Install git 
+2. Install and configure terrafiorm 
+3. clone repo 
+git clone https://github.com/atulkamble/terraform-azurevm.git
+cd terraform-azurevm
+4. try az login 
+5. update your subcription id in versions.tf
+6. 
+terraform init 
+terraform plan
+terraform apply 
+terraform destroy 
+```
+
+Here’s a clean, minimal Terraform setup to launch a basic Ubuntu VM on Azure. It creates a resource group, VNet/Subnet, NSG (SSH open), public IP, NIC, and a Linux VM (Ubuntu 22.04 LTS). You can drop these files into a folder and apply.
 
 # 1) Files
 
